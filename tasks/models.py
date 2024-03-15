@@ -3,7 +3,7 @@ from category.models import Category
 # Create your models here.
 
 
-class CreateTaskModel(models.Model):
+class TaskModel(models.Model):
     title = models.CharField(max_length =30)
     description = models.TextField()
     date  =models.DateField(null=True, blank=True)
